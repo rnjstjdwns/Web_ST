@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header {
+    background-color: #F6F1F1;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul div {
+    flex: 1;
+}
