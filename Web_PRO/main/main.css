@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header {
+    background-color: #F6F1F1;
+}
+
+nav {
+    background-color: #888;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul a div{
+    margin: 0px 80px;
+}
+
+#back_img {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+a:visited{
+    color : #000;
+    
+}
