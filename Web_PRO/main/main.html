@@ -7,61 +7,106 @@
     <title>예제 코드 모음</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+    <script src="js/lp.js"></script>
 </head>
 <body>
-    <div>
+    <div id="wrap">
         <header id="header_bar">
-            <h1>SJ's Page</h1>
-            <nav>
+            <div id="logo"><a href="./main.html">SJ's Page</div>
+            <nav id="nav_bar">
                 <ul type="none">
-                    <a href="../aboutme/aboutMe.html">
-                        <div>
-                            <li>About Me</li>
-                            <img src="./icons/About_Me.png">
+                    <li>
+                        <div class="nav_box">
+                            <a href="../aboutme/aboutMe.html">
+                                <div >
+                                    <p>About Me</p>
+                                    <img src="./icons/About_Me.png">
+                                </div> 
+                            </a>
                         </div>
-                    </a>
-                    <a href="../skills/skills.html">
-                        <div>
-                            <li>Skills</li>
-                            <img src="./icons/skill.png">
+                    </li>
+                    <li>
+                        <div class="nav_box">
+                            <a href="../skills/skills.html">
+                                <div >
+                                    <p>Skills</p>
+                                    <img src="./icons/skill.png">
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="../contect_me/contectMe.html">
-                        <div>
-                            <li>Contect Me</li>
-                            <img src="./icons/contact.png">
+                    </li>
+                    <li>
+                        <div class="nav_box">
+                            <a href="../contect_me/contectMe.html">
+                                <div >
+                                    <p>Contect Me</p>
+                                    <img src="./icons/contact.png">
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="../mini_game/miniGame.html">
-                        <div>
-                            <li>Mini Game</li>
-                            <img src="./icons/game.png">
-                        </div>
-                    </a>
+                </li>
+                <li>
+                    <div class="nav_box">
+                        <a href="../mini_game/miniGame.html">
+                            <div>
+                                <p>Mini Game</p>
+                                <img src="./icons/game.png">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
                 </ul>
             </nav>
-            <div>
-                <ul type="none">
-                    <a href="../login/login.html"><div><li>Login</li></div></a>
-                    <a href="../sign_in/signIn.html"></a><div><li>Sign in</li></div>
-                </ul>
+            <div id="login_box">
+                <a href="../login/login.html">Login</a>
+                <a href="../sign_in/signIn.html">Sign in</a>
             </div>
         </header>
-        <hr id="hidden">
-        
-        <section>
-            <img id="back_img" src="./images/back_img.jpg" alt="배경이미지">
+        <!-- <hr id="hidden"> -->
+        <div id="container">
+            <aside id="page_aside">
+                <img src="images/lp/lp4.png" id="aside_img">
+                <div id="aside_name">
+                    <audio src=""></audio> <!--음반에 맞는 노래 내가 좋아하는 노래 출력-->
+                    Name : Gwon Sung Jun <br>
+                    Hobby : Game, Music <br>
+                    Dream : Full Stack Dev <br>
+                </div>
+                
+            </aside>
+            <section id="section"> <!--수정필요-->
+                <div>
+                    <header>section01</header>
+                    <article></article>
+                    <footer></footer>
+                </div>
+                <div>
+                    <header>section02</header>
+                    <article></article>
+                    <footer></footer>
+                </div>
+                <div>
+                    <header>section03</header>
+                    <article></article>
+                    <footer></footer>
+                </div>
+                <div>
+                    <header>section04</header>
+                    <article></article>
+                    <footer></footer>
+                </div>
+            </section>
+        </div>
+        <!-- <section>
+            
             <article></article>
-        </section>
-        <section>
-            <div>About Me</div>
-            <div>Skills</div>
-            <div>Contect Me</div>
-            <div>Mini Game</div>
-        </section>
-        <footer><img src="./icons/email.png"><img src="./icons/instagram_logo.png"> Email,instargram : lalalalalalala0430@gmail.com </footer>
+        </section> -->
+        <footer id="page_footer">
+            <img src="./icons/email.png"><img src="./icons/instagram_logo.png"> Email,instargram : lalalalalalala0430@gmail.com 
+        </footer>
     </div>
 </body>
 </html>

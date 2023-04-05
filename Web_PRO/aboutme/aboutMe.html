@@ -5,9 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./aboutMe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>About Me Page 입니다.</h1>
-    <p>공사중...</p>
+    <div id="wrap">
+        <header id="header_bar">
+            <div id="logo"><a href="./aboutMe.html">About Me</div>
+            <nav id="nav_bar">
+                <ul type="none">
+                    <li>
+                        <div class="nav_box">
+                            <a href="../main/main.html">
+                                <div >
+                                    <p>Home</p>
+                                    <img src="./icons/Home.png">
+                                </div> 
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav_box">
+                            <a href="../skills/skills.html">
+                                <div >
+                                    <p>Skills</p>
+                                    <img src="./icons/skill.png">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav_box">
+                            <a href="../contect_me/contectMe.html">
+                                <div >
+                                    <p>Contect Me</p>
+                                    <img src="./icons/contact.png">
+                                </div>
+                            </a>
+                        </div>
+                </li>
+                <li>
+                    <div class="nav_box">
+                        <a href="../mini_game/miniGame.html">
+                            <div>
+                                <p>Mini Game</p>
+                                <img src="./icons/game.png">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
+                </ul>
+            </nav>
+            <div id="login_box">
+                <a href="../login/login.html">Login</a>
+                <a href="../sign_in/signIn.html">Sign in</a>
+            </div>
+        </header>
+        <!-- <hr id="hidden"> -->
+        <div id="container">
+            <aside id="page_aside">
+                <img src="images/lp/lp4.png" id="aside_img">
+                <div id="aside_name">
+                    Name : Gwon Sung Jun <br>
+                    Hobby : Game, Music <br>
+                    Dream : Full Stack Dev <br>
+                </div>
+                
+            </aside>
+            <section id="section"> <!--수정필요-->
+                <div>
+                    <header>
+                        성준이의 시간표
+                    </header>
+                    <article>
+                        <table id="sjtable" border="1">
+                            <tr id="table_day">
+                                <th></th>
+                                <th>월</th>
+                                <th>화</th>
+                                <th>수</th>
+                                <th>목</th>
+                                <th>금</th>
+                                <th>토</th>
+                                <th>일</th>
+
+                            </tr>
+                            <tr>
+                                <td id="table_time">9</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="f" rowspan="2">유능한 직업인의 말하기와 글쓰기</td>
+                                <td class="h" rowspan="2">인공지능과 뇌인지과학</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">10</td>
+                                <td class="a" rowspan="3">UI, UX 디자인</td>
+                                <td></td>
+                                <td class="e" rowspan="3">컴퓨터공학기초</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">11</td>
+                                <td class="c" rowspan="2">진로설계와 실천인성</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">12</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">2</td>
+                                <td class="b" rowspan="3">웹프로그래밍 기초</td>
+                                <td class="d" rowspan="3">컴퓨터활용 실습</td>
+                                <td></td>
+                                <td class="g" rowspan="3">자바프로그래밍</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">3</td>
+                                <td></td>
+                                <td></td>
+                                <td class="king" rowspan="4">킹바</td>
+                                <td class="king" rowspan="4">킹바</td>
+                            </tr>
+                            <tr>
+                                <td id="table_time">4</td>
+                                <td></td>
+                                <td></td>
+
+
+                            </tr>
+                            <tr>
+                                <td id="table_time">5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+
+                            </tr>
+                            <tr>
+                                <td id="table_time">6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!-- <section>
+            
+            <article></article>
+        </section> -->
+        <footer id="page_footer">
+            <img src="./icons/email.png"><img src="./icons/instagram_logo.png"> Email,instargram : lalalalalalala0430@gmail.com 
+        </footer>
+    </div>
 </body>
 </html>

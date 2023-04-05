@@ -57,7 +57,6 @@ a{
 .nav_box{
     margin: 0px 50px;
     border: none;
-    
 }
 
 
@@ -128,4 +127,74 @@ a:visited{
     100% {
         transform: rotate(360deg);
     }
+}
+#sjtable {
+    width:700px;
+    height: 600px;
+}
+
+#sjtable td{
+    width: 300px;
+    height: 50px;
+}
+#sjtable #table_day{
+    height: 10px;
+}
+#sjtable #table_time{
+    width: 10px;
+    text-align: center;
+}
+
+#sjtable .f {
+    background-color: purple;
+    color: whitesmoke;
+}
+
+#sjtable .g {
+    background-color: rgb(46, 173, 73);
+    color: whitesmoke;
+}
+
+#sjtable .a {
+    background-color: rgb(183, 87, 87);
+    color: whitesmoke;
+}
+
+#sjtable .b {
+    background-color: rgb(218, 194, 87);
+    color: whitesmoke;
+}
+
+#sjtable .c {
+    background-color: rgb(87, 198, 218);
+    color: whitesmoke;
+}
+
+#sjtable .d {
+    background-color: rgb(87, 128, 218);
+    color: whitesmoke;
+}
+
+#sjtable .e {
+    background-color: rgb(218, 144, 87);
+    color: whitesmoke;
+}
+
+#sjtable .h {
+    background-color: rgb(168, 87, 218);
+    color: whitesmoke;
+}
+#sjtable .king {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+tr:hover {
+    background-color: #ffc5c2; 
+    cursor: pointer;
+}
+
+td:hover, th:hover {
+    background-color: #cb332b;
+    cursor: pointer; 
 }
