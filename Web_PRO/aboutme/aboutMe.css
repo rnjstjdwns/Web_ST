@@ -9,11 +9,11 @@ a{
 
 #wrap{
     width: 1400px;
-    height: 1000px;
+    height: 2100px;
     margin: 0px auto;
     border: 1px solid #000;
+    position: relative;
 }
-
 #login_box {
     display: flex;
     flex-direction: column;
@@ -89,6 +89,8 @@ a:visited{
     width: 1400px;
     /* background-color: blue; */
     background: #444;
+    position: absolute;
+    bottom: 0;
 }
 
 #page_aside{
@@ -99,6 +101,7 @@ a:visited{
     background-size: cover;
     background-position: center;
     position: relative;
+    border-right: 1px solid #000;
 }
 
 #aside_name {
@@ -197,4 +200,13 @@ tr:hover {
 td:hover, th:hover {
     background-color: #cb332b;
     cursor: pointer; 
+}
+td {
+    background-color: #999;
+}
+table {
+    border: 1px solid #000;
+}
+th {
+    background-color: #777;
 }

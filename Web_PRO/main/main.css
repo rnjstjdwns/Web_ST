@@ -90,6 +90,8 @@ a:visited{
     width: 1400px;
     /* background-color: blue; */
     background: #444;
+    position: fixed;
+    bottom: 0;
 }
 
 #page_aside{
