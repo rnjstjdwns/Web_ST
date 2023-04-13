@@ -7,6 +7,16 @@ a{
     text-decoration: none;
 }
 
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: rgb(99, 39, 196);
+}
 #wrap{
     width: 1400px;
     height: 1000px;
@@ -60,12 +70,6 @@ a{
     
 }
 
-
-a:visited{
-    color : #000;
-    
-}
-
 #logo{
     /* display: inline-block; */
     font-size: 40px;
@@ -83,6 +87,27 @@ a:visited{
     width: 1000px;
     height: 900px;
     /* background-color: pink; */
+}
+#outer {
+    border: 1px solid #000;
+    width: 1000px;
+    height: 400px;
+    overflow-x: hidden;
+}
+
+#inner-list {
+    display: flex;
+    transition: .4s ease-out;
+    height: 100%;
+}
+
+.inner{
+    border: 5px solid blue;
+    padding: 0 60px;
+}
+
+#button-list {
+    text-align: center;
 }
 
 #page_footer {
@@ -114,7 +139,9 @@ a:visited{
     font-size: 20px;
     text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
 }
-
+#aside_name audio{
+    position: relative;
+}
 #container #page_aside img{
     animation: rotate_image 8s linear infinite;
     transform-origin: center;
