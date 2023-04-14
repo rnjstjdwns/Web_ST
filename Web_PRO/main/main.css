@@ -18,7 +18,7 @@ a:hover {
     color: rgb(99, 39, 196);
 }
 #wrap{
-    width: 1400px;
+    width: 100%;
     height: 1000px;
     margin: 0px auto;
     border: 1px solid #000;
@@ -84,7 +84,7 @@ a:hover {
 
 
 #section {
-    width: 1000px;
+    width: 100%;
     height: 900px;
     /* background-color: pink; */
 }
@@ -112,13 +112,13 @@ a:hover {
 
 #page_footer {
     height: 90px;
-    width: 1400px;
+    width: 100%;
     /* background-color: blue; */
     background: #444;
 }
 
 #page_aside{
-    width: 400px;
+    width: 500px;
     height: 900px;
     background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("./images/back_img.jpg");
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ a:hover {
 #aside_name {
     position: absolute;
     top: 500px;
-    left: 85px;
+    left: 50px;
     /* transform: translate(-50%, -50%); */
     color: white;
     line-height: 40px;
