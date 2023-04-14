@@ -12,6 +12,7 @@
     
 </head>
 <body>
+    
     <div id="wrap">
         <header id="header_bar">
             <div id="logo"><a href="./main.html">SJ's Page</div>
@@ -66,60 +67,97 @@
         </header>
         <!-- <hr id="hidden"> -->
         <div id="container">
-<<<<<<< HEAD
             <div id="aside_view">
                 <aside id="page_aside">
                     <img id="aside_img">
                     <div id="aside_name">
-                        PlayList : <audio src="./audio/song01.mp3" controls></audio><br> <!--음반에 맞는 노래 내가 좋아하는 노래 출력-->
+                        PlayList :<br> <audio src="./audio/song01.mp3" controls></audio> <!--음반에 맞는 노래 내가 좋아하는 노래 출력--> <br>
                         Name : Gwon Sung Jun <br>
                         Hobby : Game, Music <br>
                         Dream : Full Stack Dev <br>
                     </div>
                 </aside>
             </div>
-=======
-            <aside id="page_aside">
-                <img id="aside_img">
-                <div id="aside_name">
-                    PlayList : <p></p><audio src="audio/y2mate.com - 닐로Nilo  넋두리  가사 Synced Lyrics.mp3" controls></audio> <br> <!--음반에 맞는 노래 내가 좋아하는 노래 출력--> 
-                    Name : Gwon Sung Jun <br>
-                    Hobby : Game, Music <br>
-                    Dream : Full Stack Dev <br>
-                </div>
-                
-            </aside>
->>>>>>> d6238a2c57b5010a3e31f6b1e7b57f64f4d126a2
             <section id="section"> <!--수정필요-->
                 <div id="outer">
                     <div id="inner-list">
-                        <div class="inner">
+                        <div class="inner" id="slide_aboutMe" ><!--onclick="location.href='../aboutme/aboutMe.html'"-->
                             <header>About Me</header>
                             <article></article>
                             <footer></footer>
                         </div>
-                        <div class="inner">
+                        <div class="inner" id="slide_skills">
                             <header>Skills</header>
                             <article></article>
                             <footer></footer>
                         </div>
-                        <div class="inner">
+                        <div class="inner" id="slide_contact_me">
                             <header>Contect Me</header>
                             <article></article>
                             <footer></footer>
                         </div>
-                        <div class="inner">
+                        <div class="inner" id="slide_mini_game">
                             <header>Mini Game</header>
                             <article></article>
                             <footer></footer>
                         </div>
                     </div>
+                    <div id="button-list">
+                        <button id="button-left">← Left</button>
+                        <button id="button-right">→ Right</button>
+                    </div>
                 </div>
-                <div id="button-list">
-                    <button id="button-left">← Left</button>
-                    <button id="button-right">→ Right</button>
-                </div>
+                
+                <div>
+                    <div id="user_image_box">
+                        <header id="user_image_header">
+                            <img  id="user_image" src="./images/myhead.jpg" alt="">
+                        </header>
+                        <article>
+                            <p>
+                                안녕하세요 저는 현재 동양미래대 23학번 1학년 1학기 재학중인 권성준 학생입니다.
+                            </p>
+                        </article>
+                    </div>
+                    <div id="contact_view">
+                        <div class="contact_box">
+                            <header>BLOG</header>
+                            <article>
+                                <div class="contact_art">
+                                    <img src="./images/tistory-logo-fill-300x300.png" style="background-color: #FFF;">
+                                </div>
+                                
+                                <p>이것은 제 블로그 입니다</p>
+                            </article>
+                            <footer></footer>
+                        </div>
+                        <div class="contact_box">
+                            <header>GITHUB</header>
+                            <article >
+                                <div class="contact_art">
+                                    <img src="./images/free-icon-github-logo-25231.png" style="background-color: #FFF;">
+                                </div>
+                                
+                                <p>이것은 제가 깃헙입니다</p>
+                            </article>
+                            <footer></footer>
+                        </div>
+                        <div class="contact_box">
+                            <header>PORTFOLIO</header>
+                            <article>
+                                <div class="contact_art">
+                                    <img src="./images/professional-portfolio.png" alt="">
+                                </div>
+                                <p>이것은 제 포트폴리오 홈페이지 입니다</p>
+                            </article>
+                            <footer></footer>
+                        </div>
+                    </div>
+                </div>      
             </section>
+            <nav id="page_aside">
+                
+            </nav>
         </div>
         <!-- <section>
             

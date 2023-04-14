@@ -5,3 +5,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 $element = document.querySelector("#page_aside>img");
 
 $element.src = `./images/lp/${chosenImage}`;
+// $element.src = `./images/myhead.jpg`;
