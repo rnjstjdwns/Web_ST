@@ -80,8 +80,6 @@ a:hover {
     /* border: 1px solid #000; */
     display: flex;
 }
-
-
 #section {
     width: 100%;
     height: 900px;
@@ -90,55 +88,86 @@ a:hover {
 }
 #section::-webkit-scrollbar {
     display: none;
-}
+} 
+/*스크롤바 제거*/
 #outer::-webkit-scrollbar {
     display: none;
 }
+/*스크롤바 제거*/
 #outer {
     border: 1px solid #000;
     width: 100%;
     height: 700px;
     overflow-x: hidden;
+    position: relative;
 }
-
+/*overflow-x: hidden을 통해 사용자에게 안보여주는 화면은 보이지 않게함*/
 #inner-list {
     display: flex;
     transition: .9s ease-out;
     height: 100%;
 }
-
+/*안에 있는 화면 요소 총 9초 간격으로 보여주게 하고 flex를 통해 요소 가로 정렬*/
 .inner{
     padding: 0 60px;
-    width: 1000px;
+    /* width: 1000px; */
+    position: relative;
 }
-
+/*각각의 요소 크기 조절*/
+#button-left {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+    color: white;
+}
+/*버튼 설정 position: absolute를 통해 부모 요소의 position이 relative이면 그 요소 안에서 다른 요소들과 상관 없이 위치 설정하게 함*/
+#button-right {
+    position: absolute;
+    top: 300px;
+    left: 1180px;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+    color: white;
+}
+/*버튼 설정 position: absolute를 통해 부모 요소의 position이 relative이면 그 요소 안에서 다른 요소들과 상관 없이 위치 설정하게 함*/
+.inner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+/*배경 안 텍스트 설정*/
 #slide_aboutMe {
-    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("./images/slide_banner/Me!.jpg");
+    background-image: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("./images/slide_banner/Me!.jpg");
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
 }
 #slide_skills {
-    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("./images/slide_banner/skills.jpg");
+    background-image: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("./images/slide_banner/skills.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #slide_contact_me {
-    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("./images/slide_banner/contact_me.jpg");
+    background-image: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("./images/slide_banner/contact_me.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #slide_mini_game {
-    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("./images/slide_banner/mini_game.jpg");
+    background-image: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("./images/slide_banner/mini_game.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-/* #button-list {
-    text-align: center;
-} */
+/*각각의 사진 배경 및 반복 안되게끔 설정 시켜줌*/
 
 #page_footer {
     height: 90px;
